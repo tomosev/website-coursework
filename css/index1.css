@@ -39,13 +39,15 @@ ul.topnav li.right,
 ul.topnav li {float: none;}
 
 .showcase h1{
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     padding-left: 10px;
     font-family: bebas-neue, sans-serif;
     font-style: normal;
     letter-spacing: 5px;
     font-size: 50px;
     font-weight: 400;
+    margin: 0px;
 }
 .showcase-text{
     padding-bottom: 20px;
@@ -140,13 +142,15 @@ img{
     ul.topnav li.right {float: right;}
 
     .showcase h1{
-        padding-top: 50px;
+        padding-top: 30px;
+        padding-bottom: 30px;
         padding-left: 10px;
         font-family: bebas-neue, sans-serif;
         font-style: normal;
         letter-spacing: 5px;
         font-size: 50px;
         font-weight: 400;
+        margin: 0px;
     }
     .showcase-text{
         padding-bottom: 20px;
