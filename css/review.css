@@ -44,6 +44,8 @@ ul.topnav li {float: none;}
 h1{
     padding-top: 30px;
     padding-bottom: 30;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: bebas-neue, sans-serif;
     font-style: normal;
     letter-spacing: 5px;
@@ -51,7 +53,7 @@ h1{
     font-weight: 400;
     margin: 0px;
 }
-.text{
+p{
     padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
@@ -65,6 +67,8 @@ h1{
 }
 h2{
     padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: justify;
     font-family: proxima-nova, sans-serif;
     font-weight: 800;
@@ -109,6 +113,8 @@ h2{
     h1{
         padding-top: 50px;
         padding-bottom: 30px;
+        padding-left: 10px;
+        padding-right: 10px;
         font-family: bebas-neue, sans-serif;
         font-style: normal;
         letter-spacing: 5px;
@@ -116,7 +122,7 @@ h2{
         font-weight: 400;
         margin: 0px;
     }
-    .text{
+    p{
         padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
@@ -131,6 +137,8 @@ h2{
     }
     h2{
         padding-top: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
         text-align: justify;
         font-family: proxima-nova, sans-serif;
         font-weight: 800;
