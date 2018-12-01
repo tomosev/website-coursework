@@ -107,10 +107,11 @@ img{
 .footer{
     margin-top: 50px;
     margin-bottom: 10px;
+    padding-left: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #080808;
-    text-align: center;
+    text-align: justify;
     font-size: 12px;
 }
 
@@ -213,11 +214,12 @@ img{
     }
     .footer{
         margin-top: 50px;
+        padding-left: 10px;
         margin-bottom: 10px;
         padding-top: 5px;
         padding-bottom: 5px;
         background-color: #080808;
-        text-align: center;
+        text-align: justify;
         font-size: 12px;
     }
 
