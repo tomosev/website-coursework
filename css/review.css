@@ -42,8 +42,7 @@ ul.topnav li {float: none;}
     width: 100%;
 }
 h1{
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: bebas-neue, sans-serif;
@@ -51,7 +50,6 @@ h1{
     letter-spacing: 5px;
     font-size: 50px;
     font-weight: 400;
-    margin: 0px;
 }
 p{
     padding-bottom: 20px;
@@ -112,8 +110,7 @@ h2{
     ul.topnav li a.active {background-color: rgb(45, 45, 45);}
     ul.topnav li.right {float: right;}
     h1{
-        padding-top: 30px;
-        padding-bottom: 30;
+        padding-top: 50px;
         padding-left: 10px;
         padding-right: 10px;
         font-family: bebas-neue, sans-serif;
@@ -121,7 +118,6 @@ h2{
         letter-spacing: 5px;
         font-size: 50px;
         font-weight: 400;
-        margin: 0px;
     }
     p{
         padding-bottom: 20px;
