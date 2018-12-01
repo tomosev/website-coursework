@@ -54,6 +54,7 @@ h1{
     margin: 0px;
 }
 p{
+    padding-bottom: 20px;
     padding-left: 10px;
     padding-right: 10px;
     font-family: 'Source Code Pro', monospace;
@@ -79,7 +80,7 @@ h2{
     margin-top: 50px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding-top: 5px;
     padding-bottom: 5px;
     background-color: #080808;
@@ -123,6 +124,7 @@ h2{
         margin: 0px;
     }
     p{
+        padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
         font-family: 'Source Code Pro', monospace;
@@ -132,6 +134,7 @@ h2{
         font-size: 12px;
         text-align: justify;
         letter-spacing: 0px;
+        /* padding: 0% */
     }
     h2{
         padding-top: 20px;
