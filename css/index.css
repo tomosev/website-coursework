@@ -1,59 +1,58 @@
 body {
-    background-color: #000000;
+    margin: 0;
+    padding: 0;
+    background-color: black;
     font-family: 'Source Code Pro', monospace;
     color: rgba(255,255,255,.7);
     text-transform: uppercase;
-    margin-left: 250px;
-    margin-right: 250px;
-
-
+}
+.wrapper{
+    width: 100%;
 }
 ul.topnav {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
     overflow: hidden;
     background-color: #080808;
-    margin: 0px;
+    margin-top: 20px;
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
     display: block;
-    color:rgba(255,255,255,.7);
+    color:rgba(221, 220, 220, 0.7);
     text-align: center;
     font-size: 14px;
-    padding: 14px 16px;
+    padding: 14px 0px 16px 0px;
     text-decoration: none;
+}
+.topnav{
+    padding-inline-start: 0px;
 }
 
 ul.topnav li a:hover:not(.active) {background-color: #111;}
 
 ul.topnav li a.active {background-color: rgb(45, 45, 45);}
 
-ul.topnav li.right {float: right;}
+ul.topnav li.right,
 
+ul.topnav li {float: none;}
 
-@media screen and (max-width: 600px){
-    ul.topnav li.right, 
-    ul.topnav li {float: none;}
-}
-
-h1{
-    margin: 0px;
-    font-size: 50px;
-    font-weight: 400;
-}
-.showcase{
-    margin-top: 50px;
+.showcase h1{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
     font-family: bebas-neue, sans-serif;
     font-style: normal;
     letter-spacing: 5px;
-    
+    font-size: 50px;
+    font-weight: 400;
+    margin: 0px;
 }
 .showcase-text{
     padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-family: 'Source Code Pro', monospace;
     font-style: normal;
     font-weight: 400px;
@@ -62,77 +61,187 @@ h1{
     text-align: justify;
 
 }
-
-
 .video-text{
     padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     font-weight: 400;
     font-size: 12px;
     text-align: justify;
 }
-#recent{
-    padding-bottom: 0px;
-    height: 100%;
-    overflow: hidden;
-}
 .recent-work{
-    margin: 0;
     padding-top: 50px;
     padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;
     font-family: proxima-nova, sans-serif;
     font-weight: 800;
     font-style: italic;
-    font-size: 24px;
+    font-size: 18px;
     letter-spacing: 2px;
 }
+img{
+    display: none;
+}
+#recent{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .title{
-    padding-top: 0px;
-    margin: 0px;
-    font-size: 16px;
+    font-size: 14px;
+    padding-top: 20px;
+
 }
 .one {
-    padding-top: 10px;
-    float: left;
     font-size: 12px;
     text-align: justify;
-
 }
 .two {
-    padding-top: 10px;
-    float: left;
     font-size: 12px;
     text-align: justify;
-    
+
 }
 .three {
-    padding-top: 10px;
-    float: left;
     font-size: 12px;
     text-align: justify;
 }
-
-img {
-    padding-right: 20px;
-    width: 100%;
-    max-width: 150PX;
-    height: auto;
-}
-
-
 .footer{
-    margin-top: 200px;
-    padding-bottom: 5px;
+    margin-top: 50px;
+    margin-bottom: 10px;
     padding-top: 5px;
-    width: 100%;
+    padding-bottom: 5px;
     background-color: #080808;
     text-align: center;
     font-size: 12px;
 }
+video{
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
 
-@media only screen and (min-width: 768){
-    body {
-        margin: 0;
-        width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .wrapper{
+        width: 700px;
+        margin: 0 auto;
     }
+    ul.topnav {
+        list-style-type: none;
+        overflow: hidden;
+        background-color: #080808;
+        margin-top: 20px;
+    }
+    ul.topnav li {float: left;}
+    ul.topnav li a {
+        display: block;
+        color:rgba(221, 220, 220, 0.7);
+        text-align: center;
+        font-size: 14px;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    ul.topnav li a:hover:not(.active) {background-color: #111;}
+    ul.topnav li a.active {background-color: rgb(45, 45, 45);}
+    ul.topnav li.right {float: right;}
+
+    .showcase h1{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 10px;
+        font-family: bebas-neue, sans-serif;
+        font-style: normal;
+        letter-spacing: 5px;
+        font-size: 50px;
+        font-weight: 400;
+        margin: 0px;
+    }
+    .showcase-text{
+        padding-bottom: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: 'Source Code Pro', monospace;
+        font-style: normal;
+        font-weight: 400px;
+        letter-spacing: 0px;
+        font-size: 12px;
+        text-align: justify;
+
+    }
+    .video-text{
+        padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-weight: 400;
+        font-size: 12px;
+        text-align: justify;
+    }
+    .recent-work{
+        padding-top: 50px;
+        padding-bottom: 50px;
+        padding-left: 10px;
+        padding-right: 10px;
+        text-align: center;
+        font-family: proxima-nova, sans-serif;
+        font-weight: 800;
+        font-style: italic;
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+    img{
+        display: block;
+        float: left;
+        padding-right: 10px;
+        padding-top: 10px;
+    }
+    #recent{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .title{
+        font-size: 14px;
+        padding-top: 0px;
+
+    }
+    .one {
+        font-size: 12px;
+        text-align: justify;
+        padding-top: 10px
+
+    }
+    .two {
+        font-size: 12px;
+        text-align: justify;
+        padding-top: 10px
+
+    }
+    .three {
+        font-size: 12px;
+        text-align: justify;
+        padding-top: 10px
+    }
+    .footer{
+        margin-top: 50px;
+        margin-bottom: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        background-color: #080808;
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+
+
+}
+@media only screen and (min-width: 1000px) {
+    .wrapper{
+        width: 1000px;
+    }
+
+
+
 }
