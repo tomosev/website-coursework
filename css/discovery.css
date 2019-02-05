@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    font-family: 'Source Code Pro', monospace;
+    color: rgba(255,255,255,.7);
+    text-transform: uppercase;
+}
+.wrapper{
+    width: 100%;
+}
+ul.topnav {
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #080808;
+    margin-top: 20px;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color:rgba(221, 220, 220, 0.7);
+    text-align: center;
+    font-size: 14px;
+    padding: 14px 0px 16px 0px;
+    text-decoration: none;
+}
+.topnav{
+    padding-inline-start: 0px;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: rgb(45, 45, 45);}
+
+ul.topnav li.right,
+
+ul.topnav li {float: none;}
