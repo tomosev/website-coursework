@@ -154,7 +154,7 @@ video{
 
     .showcase h1{
         padding-top: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 10px;
         padding-left: 10px;
         font-family: bebas-neue, sans-serif;
         font-style: normal;
@@ -164,7 +164,6 @@ video{
         margin: 0px;
     }
     .showcase-text{
-        padding-bottom: 20px;
         padding-left: 10px;
         padding-right: 10px;
         font-family: 'Source Code Pro', monospace;
@@ -203,7 +202,17 @@ video{
         max-width: 150px;
         max-height: 150px;
         overflow: hidden;
+        opacity: 0.7;
+        transition: opacity 1s ease-in-out;
+        -moz-transition: opacity 1s ease-in-out;
+        -webkit-transition: opacity 1s ease-in-out;
     }
+    img:hover {
+        opacity: 1.0;
+        transition: opacity .55s ease-in-out;
+        -moz-transition: opacity .55s ease-in-out;
+        -webkit-transition: opacity .55s ease-in-out;
+    }​
     #recent{
         padding-left: 10px;
         padding-right: 10px;
