@@ -89,6 +89,7 @@ img{
     padding-right: 10px;
 }
 .title{
+    margin-top: 10px;
     font-size: 14px;
     padding-top: 20px;
     font-family: proxima-nova, sans-serif;
@@ -98,15 +99,21 @@ img{
 
 }
 .one {
+    margin: 0px;
+    padding top: 10px;
     font-size: 12px;
     text-align: justify;
 }
 .two {
+    margin: 0px;
+    padding top: 10px;
     font-size: 12px;
     text-align: justify;
 
 }
 .three {
+    margin: 0px;
+    padding top: 10px;
     font-size: 12px;
     text-align: justify;
 }
@@ -198,7 +205,6 @@ video{
         display: block;
         float: left;
         padding-right: 10px;
-        padding-top: 10px;
         max-width: 150px;
         max-height: 150px;
         overflow: hidden;
@@ -218,6 +224,7 @@ video{
         padding-right: 10px;
     }
     .title{
+        margin: 0px;
         font-size: 14px;
         padding-top: 0px;
 
@@ -226,18 +233,24 @@ video{
         font-size: 12px;
         text-align: justify;
         padding-top: 10px
+        max-height: 160px;
+        overflow: hidden;
 
     }
     .two {
         font-size: 12px;
         text-align: justify;
         padding-top: 10px
+        max-height: 160px;
+        overflow: hidden;
 
     }
     .three {
         font-size: 12px;
         text-align: justify;
         padding-top: 10px
+        max-height: 160px;
+        overflow: hidden;
     }
     .footer{
         margin-top: 50px;
