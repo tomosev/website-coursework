@@ -107,7 +107,7 @@ h2{
     ul.topnav li a.active {background-color: rgb(45, 45, 45);}
     ul.topnav li.right {float: right;}
     h1{
-        padding-top: 50px;
+        padding-top: 30px;
         padding-bottom: 30px;
         font-family: bebas-neue, sans-serif;
         font-style: normal;

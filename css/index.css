@@ -69,54 +69,6 @@ ul.topnav li {float: none;}
     font-size: 12px;
     text-align: justify;
 }
-.recent-work{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    font-size: 18px;
-    letter-spacing: 2px;
-}
-img{
-    display: none;
-}
-#recent{
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.title{
-    margin-top: 10px;
-    font-size: 14px;
-    padding-top: 20px;
-    font-family: proxima-nova, sans-serif;
-    font-weight: 800;
-    font-style: italic;
-    letter-spacing: 1px;
-
-}
-.one {
-    margin: 0px;
-    padding top: 10px;
-    font-size: 12px;
-    text-align: justify;
-}
-.two {
-    margin: 0px;
-    padding top: 10px;
-    font-size: 12px;
-    text-align: justify;
-
-}
-.three {
-    margin: 0px;
-    padding top: 10px;
-    font-size: 12px;
-    text-align: justify;
-}
 .footer{
     margin-top: 50px;
     margin-bottom: 10px;
@@ -188,69 +140,6 @@ video{
         font-weight: 400;
         font-size: 12px;
         text-align: justify;
-    }
-    .recent-work{
-        padding-top: 50px;
-        padding-bottom: 50px;
-        padding-left: 10px;
-        padding-right: 10px;
-        text-align: center;
-        font-family: proxima-nova, sans-serif;
-        font-weight: 800;
-        font-style: italic;
-        font-size: 18px;
-        letter-spacing: 2px;
-    }
-    img{
-        display: block;
-        float: left;
-        padding-right: 10px;
-        max-width: 150px;
-        max-height: 150px;
-        overflow: hidden;
-        opacity: 0.7;
-        transition: opacity 1s ease-in-out;
-        -moz-transition: opacity 1s ease-in-out;
-        -webkit-transition: opacity 1s ease-in-out;
-    }
-    img:hover {
-        opacity: 1.0;
-        transition: opacity .55s ease-in-out;
-        -moz-transition: opacity .55s ease-in-out;
-        -webkit-transition: opacity .55s ease-in-out;
-    }​
-    #recent{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .title{
-        margin: 0px;
-        font-size: 14px;
-        padding-top: 0px;
-
-    }
-    .one {
-        font-size: 12px;
-        text-align: justify;
-        padding-top: 10px
-        max-height: 160px;
-        overflow: hidden;
-
-    }
-    .two {
-        font-size: 12px;
-        text-align: justify;
-        padding-top: 10px
-        max-height: 160px;
-        overflow: hidden;
-
-    }
-    .three {
-        font-size: 12px;
-        text-align: justify;
-        padding-top: 10px
-        max-height: 160px;
-        overflow: hidden;
     }
     .footer{
         margin-top: 50px;
