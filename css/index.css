@@ -85,6 +85,10 @@ video{
     min-height: 100%;
 
 }
+img{
+    padding-top: 20px;
+    width: 100%;
+}
 
 
 @media only screen and (min-width: 768px) {
