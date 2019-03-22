@@ -63,7 +63,8 @@ ul.topnav li {float: none;}
 }
 .image_title{
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-bottom: 0px;
     font-family: proxima-nova, sans-serif;
     font-style: italic;
     letter-spacing: 2px;
