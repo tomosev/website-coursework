@@ -61,6 +61,16 @@ ul.topnav li {float: none;}
     text-align: justify;
 
 }
+.image_title{
+    text-align: center;
+    padding-top: 10px;
+    font-family: proxima-nova, sans-serif;
+    font-style: italic;
+    letter-spacing: 2px;
+    font-size: 18px;
+    font-weight: 800;
+    margin: 0px;
+}
 .video-text{
     padding-top: 10px;
     padding-left: 10px;
