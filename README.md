@@ -18,7 +18,7 @@ You are required to produce a website that acts as an electronic portfolio for y
 
 - [x] be formatted using CSS - i.e. form and content are separated.
 
-- [ ] Remove name at bottom of page
+- [x] Remove name at bottom of page
 
 
 *30% of course grade.*
